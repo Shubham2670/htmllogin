@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="NewForm.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h2>Registration form</h2>
+      <div class="section">
+        <label>UserName</label><br />
+        <input
+          type="text"
+          class="InputText"
+          placeholder=" Type UserName Here" 
+        /><br />
+        <label>Password</label><br />
+        <input
+          type="Password"
+          class="InputText"
+          placeholder=" Type Password Here" required
+        /><br />
+        <label>Confirm Password</label><br />
+        <input
+          type="Password"
+          class="InputText"
+          placeholder=" Confirm Password Here" required
+        /><br />
+        <div  style="display: flex; "> 
+          <input type="checkbox" class="rememberStyle" />
+          <p style="margin-left: 13px;">Remember Me</p>
+        </div>
+
+        <div class="form3child">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"><p>Off</p></span>
+        </label>
+          
+        </div>
+
+        <div class="form4child">
+          <input class="form4" type="radio" id="html" name="fav_language" value="HTML" />
+          <label for="html">HTML</label><br />
+          <input class="form4"  type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css">CSS</label><br />
+          <input class="form4" 
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+          <label for="javascript">JavaScript</label>
+        </div>
+
+        <div class="form5child">
+        <label for="cars">Choose a Car</label><br/>
+        <select style="width: 350px; height: 30px; border-radius: 5px; background-image: linear-gradient(120deg,rgb(21, 147, 197),rgb(189, 41, 189));margin-left: 8px;" id="cars" name="cars">
+            <option value="BMW">BMW</option>
+            <option value="THAR">THAR</option>
+            <option value="URUS">URUS</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+        <div class="form6child" style="display: flex ">
+          <button class="btn1" >Cancel</button>
+          <button class="btn2" >Next</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
