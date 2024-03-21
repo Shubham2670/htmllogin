@@ -18,7 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #161bbb;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -26,18 +26,21 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 18px;
+    width: 21px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(255, 250, 250);
     -webkit-transition: .4s;
     transition: .4s;
   }
+
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color:#d6dadc;
   }
+ 
+
   
   input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
@@ -52,6 +55,8 @@
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
+    height: 25px;
+    width: 50px;
   }
   
   .slider.round:before {
@@ -67,8 +72,8 @@
 
     
     /* width: 1014px; */
-    height: 800px;
-    background-color: skyblue;
+    height: 700px;
+    background-color: rgb(16, 21, 23);
     /* margin-left: 200px; */
     border-radius: 20px;
   }
@@ -78,95 +83,148 @@
     /* margin: 20px; */
     padding: 10px;
     
-    margin-left: 630px;
+    margin-left: 630px;  
     
   }
 .rememberStyle{
-    height: 20px;
-    width: 20px;
-    margin-top: 15px;
+    height: 15px;
+    width: 20px; 
+    margin-top: -11px;
     margin-left: 13px;
-
+    border-radius: 5px;
+    
 }
   .section{
     position: absolute;
-    background-color: aliceblue;
-    top: 40px;
-    height: 630px;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    height: 608px;
     width: 350px;
-    padding: 20px;
+    padding: 50px;
     left: 540px;
     border-radius: 5px;
   }
   .section label{
-    font-size: medium;
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: small;
+
   }
-.InputText{
-  font-size: medium;
-    margin: 10px;
+ 
+
+  .icon{
+    position: relative;
+    /* top: -20px; */
+    border: 2px solid rgb(223, 15, 15);
     height: 30px;
+    margin-top: 5px;
+    width: 347px;
+    left: 7px;
+    border-radius: 5px;
+    
+
+  }
+ 
+  .fa-exclamation-circle{
+    position: absolute;
+    left: 325px;
+    top: 9px;
+    color: red;
+  }
+  .para1{
+  position:absolute ;
+  left: 6px;
+  top: -5px;
+  font-size: small;
+  opacity: 0.7;
+
+  }
+
+ 
+ 
+  
+.InputText{
+  font-size:10px;    
+    margin: 7px;
+    border: 1px solid rgb(181,176,176);
+    
+    /* border: -0.1; */
+    height: 29px;
     width: 340px;
     border-radius: 5px;
+    padding-left: 5px;
 }
+
+.para{
+font-size: medium;
+font-size: small;
+margin-top: -5px;
+margin-left: 10px;
+}
+
 .section .spa{
      margin: 10px;
      font-size: medium;
      font-weight: bold;
 }
+.inputspan{
+  font-size: small;
+  margin-left: 12px;
+  color: red;
+  margin-top: -17px;
+  width: 500px;
+}
 .form3child{
     display: flex;
-    margin-top: 20px;
-    margin-left: -12px;
+    margin-top: 5px;
+    margin-left: 2px;
 }
+
 .form3child p{
     position: absolute;
-    top: -10px;
+    top: -5px;
     display: flex;
-    margin-left: 70px;
-    font-weight: bold;
+    margin-left: 60px;
     
 }
 .form4child{
-    margin-top: 10px;
+    margin-top: 1px;
 }
 .form4child input{
   margin: 10px;
+  margin-left: 15px;
 }
 .form4child label{
-    font-size: medium;
-    font-weight: bold;
+    font-size: small;
 }
 
 .form5child{
-    margin-top: 40px;
+    margin-top: 10px;
 
 }
 .form5child label{
-      font-size: medium;
-      font-size: large;
-    margin-left: 8px;
+      font-size: small;
+    margin-left: 13px;
 }
 
 .form6child{
   display: flex;
   justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 60px;
+    color: #2196F3;
 }
-.form6child button  {
-  justify-content: space-between;
-    margin: 40px;
-    margin-left: 20px;
-    width: 200px;
+.form6child button  { 
+    width: 100px;
+    border-color: #ccc;
     margin-top:7px;
-    border-radius: 20px;
+    color: rgb(49, 104, 214);
+    
+    margin-left: 10px;
+    border-radius: 5px;
     height: 40px;
 }
-.form6child button:hover{
-    background-color: green;
-    cursor: pointer;
-    
-}
+
+
+
 
 
 

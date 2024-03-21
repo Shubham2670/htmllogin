@@ -5,37 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="NewForm.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </head>
   <body>
     <div class="form">
-      <h2>Registration form</h2>
       <div class="section">
-        <label>UserName</label><br />
-        <input
+        <label class="users" style="font-size: 10px;">Username</label><br />
+        <input 
           type="text"
           class="InputText"
-          placeholder=" Type UserName Here" 
+          placeholder=" Enter Username" 
         /><br />
-        <label>Password</label><br />
+        <label style="font-size: 10px;"  class="users">Password</label><br />
         <input
           type="Password"
           class="InputText"
-          placeholder=" Type Password Here" required
-        /><br />
-        <label>Confirm Password</label><br />
-        <input
-          type="Password"
-          class="InputText"
-          placeholder=" Confirm Password Here" required
-        /><br />
+          placeholder="Enter Password" required
+        />
+        <p class="para">Your Password is between 4 and 12 characters</p><br />
+
+        <div style="margin-top: -17px;">
+          <label style="font-size: 10px;" class="users">Input Text Label</label><br />
+        </div>
+        <div class="icon">
+          <div class="icon1">
+            <p class="para1">Typing |</p>
+            <i class="fa fa-exclamation-circle"></i>
+          </div>
+        </div>
+        <br/>
+        <p class="inputspan">Error message informing me of a problem</p>
+        <br />
+
+
         <div  style="display: flex; "> 
           <input type="checkbox" class="rememberStyle" />
-          <p style="margin-left: 13px;">Remember Me</p>
+          <p style="margin-left: 9px; margin-top: -10px; font-size: small;">Remember Me</p>
         </div>
 
         <div class="form3child">
           <label class="switch">
-            <input type="checkbox" />
+            <input  type="checkbox" />
             <span class="slider round"><p>Off</p></span>
         </label>
           
@@ -43,30 +56,29 @@
 
         <div class="form4child">
           <input class="form4" type="radio" id="html" name="fav_language" value="HTML" />
-          <label for="html">HTML</label><br />
+          <label for="html">Radio Selection 1</label><br />
           <input class="form4"  type="radio" id="css" name="fav_language" value="CSS" />
-          <label for="css">CSS</label><br />
+          <label for="css">Radio Selection 2</label><br />
           <input class="form4" 
             type="radio"
             id="javascript"
             name="fav_language"
             value="JavaScript"
           />
-          <label for="javascript">JavaScript</label>
+          <label for="javascript">Radio Selection 3</label>
         </div>
 
         <div class="form5child">
-        <label for="cars">Choose a Car</label><br/>
-        <select style="width: 350px; height: 30px; border-radius: 5px; background-image: linear-gradient(120deg,rgb(21, 147, 197),rgb(189, 41, 189));margin-left: 8px;" id="cars" name="cars">
-            <option value="BMW">BMW</option>
-            <option value="THAR">THAR</option>
-            <option value="URUS">URUS</option>
-            <option value="audi">Audi</option>
+        <label for="cars">Dropdown Title</label><br/>
+        <select style="width: 350px; height: 30px; border-radius: 5px;border: solid; border-color:#795bf9;margin-left: 8px;" id="cars" name="cars">
+            <option value="BMW">Dropdown option</option>
+            <option value="THAR">Dropdown option1 </option>
+            <option value="URUS">Dropdown option2</option>
         </select>
     </div>
-        <div class="form6child" style="display: flex ">
-          <button class="btn1" >Cancel</button>
-          <button class="btn2" >Next</button>
+        <div class="form6child">
+          <button class="btn1"  >Cancel</button>
+          <button class="btn2" style="background-color: rgb(102, 53, 214);color: white;">Next</button>
         </div>
       </div>
     </div>
