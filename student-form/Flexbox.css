@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: rgb(202, 165, 129);
+}
+.wrapper > *{
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+.header{
+    background-color: tomato;
+    height: 80px;
+}
+.main{
+    text-align: left;
+    background: deepskyblue;
+    height: 300px;
+    font-size: 24px;
+}
+.footer{
+    background: lightgreen;
+    height: 80px;
+}
+.asideaside1{
+    background: gold;
+}
+.asideaside2{
+    background: hotpink;
+}
+.asideaside3{
+    background: red;
+}
+@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+
+    .asideaside1{
+        order:1;
+    }
+
+    .asideaside2{
+        order: 2;
+    }
+    .main{
+        order:3
+    }
+}

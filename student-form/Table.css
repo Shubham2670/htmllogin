@@ -1,0 +1,122 @@
+*{
+    font-family: 'Roboto Flex' sans-serif;
+}
+table, th, td {
+    border:none
+  }
+  th ,td{
+    padding: 15px;
+    text-align: center;
+  }
+ th{
+    border-bottom: 1px solid rgb(195, 193, 193);
+    text-align: left;
+ }
+
+.title{
+    color: rgb(23, 199, 199);
+}
+.fa-eye{
+    color: rgb(18, 191, 191);
+}
+.fa-chart-simple{
+    color: rgb(54, 230, 54);
+}
+.fa-trash{
+    color: red;
+}
+td{
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+td{
+    text-align: left;
+}
+.fa-search{
+   
+   border: none;
+   height: 18px;
+   color: rgb(84, 155, 184);
+ 
+   
+}
+.texts1{
+
+    margin-left: 880px;
+}
+.texts{
+  border: none;
+  color: transparent;
+
+
+}
+button{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: 545;
+    opacity: 0.5;
+}
+
+.fill{
+    display: flex;
+    width: 60px;
+    height: 12px;
+    margin-left: 1300px;
+    margin-top: -15px;
+    border:1px solid;
+    border-color: rgb(88, 163, 193);
+    border-radius: 5px;
+    padding: 7px;
+    padding-bottom: 8px;
+}
+.fill2{
+    display: flex;
+    margin-left: 1400px;
+    margin-top: -25px;
+    color: rgb(242, 245, 247);
+    background-color: skyblue;
+    margin-right: 50px  ;
+    padding: 2px;
+    padding-left: 5px;
+}
+.fill2 p{
+    font-size:12px ;
+}
+.fill p{
+    color: rgb(30, 182, 182);
+    margin-top: -5px;
+
+}
+
+
+/* ....Navbar.... */
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnav1{
+    background-color: #052c3a;
+    height: 50px;
+
+}
+.Clients{
+    margin-top: 10;
+}
+.topnav{
+    display:flex;
+    justify-content: space-between;
+    
+        margin-left: 900px;
+        margin-right:200px;
+        color: white;
+        font-size: 11px;
+        
+}
+
+
