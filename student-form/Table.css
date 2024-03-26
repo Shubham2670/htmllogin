@@ -1,16 +1,22 @@
 *{
     font-family: 'Roboto Flex' sans-serif;
+    color: rgb(168, 166, 166);
+
 }
+
 table, th, td {
     border:none
   }
   th ,td{
-    padding: 15px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 50px;
     text-align: center;
   }
  th{
     border-bottom: 1px solid rgb(195, 193, 193);
     text-align: left;
+    color: black;
  }
 
 .title{
@@ -42,6 +48,7 @@ td{
 .texts1{
 
     margin-left: 880px;
+    margin-top: 15px;
 }
 .texts{
   border: none;
@@ -62,32 +69,71 @@ button{
     font-weight: 545;
     opacity: 0.5;
 }
+.comps{
+    position: absolute;
+    top: 90px;
+    left: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.comps p{
+    color: black;
+}
+.user{
+    position: absolute;
+    left: 88rem;
+    top: 24px;
+    color: green;
+}
+.sup{
+    margin-top: -18px;
+    margin-left: 26px;
+    font-size: 12px;
+    color: white;
+}
 
+.fa-circle-user{
+    font-size: 23px;
+}
 .fill{
     display: flex;
     width: 60px;
     height: 12px;
     margin-left: 1300px;
-    margin-top: -15px;
+    margin-top: -35px;
+    margin-bottom: 20px;
     border:1px solid;
     border-color: rgb(88, 163, 193);
     border-radius: 5px;
     padding: 7px;
-    padding-bottom: 8px;
+    padding-bottom:8px;
+    font-size: 13px;
+}
+.fill p{
+    padding-top: 5px;
 }
 .fill2{
     display: flex;
     margin-left: 1400px;
-    margin-top: -25px;
-    color: rgb(242, 245, 247);
+    margin-top: -48px;
+    margin-bottom: 10px;
+    color: rgb(43, 119, 150);
     background-color: skyblue;
     margin-right: 50px  ;
     padding: 2px;
     padding-left: 5px;
+    border-radius: 4px;
 }
 .fill2 p{
-    font-size:12px ;
+    margin-top: 4px;
+    padding: 2px;
+    padding-bottom: 3px;
+    margin-left: 2px;
+    font-size:10px;
+    color: white;
 }
+
 .fill p{
     color: rgb(30, 182, 182);
     margin-top: -5px;
@@ -102,21 +148,90 @@ button{
 }
 .topnav1{
     background-color: #052c3a;
-    height: 50px;
-
+    height: 65px;
 }
 .Clients{
-    margin-top: 10;
+    display: flex;
+    margin: -50px;
+    margin-top: 30px;
+    margin-left: 110px;
 }
 .topnav{
     display:flex;
-    justify-content: space-between;
-    
         margin-left: 900px;
         margin-right:200px;
         color: white;
         font-size: 11px;
         
 }
+.top{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+.harken{
+    font-size: 30px;
+     color: white;
+}
+.bank{
+    font-size: 9px;
+    color: white;
+}
+.slider{
+    margin-left: 5px;
+    margin-top: 1px;  
+    color: skyblue;  
+}
+.top1{
+   position: absolute;
+   top: 18px;
+   left: 190px;
+   color: white;
+   display: flex;
+   
+}
+.para3{
+   margin-left: 10px;
+   font-size: 15px;
+   margin-top: 10px;
+}
+.para4{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
 
 
+/* PAgination ...........*/
+
+.pagination{
+    position: absolute;
+    top: 700px;
+    left: 600px;
+}
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
