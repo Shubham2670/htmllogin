@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    position: relative;
+}
+.order-page{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.order-pagefield h3{
+        position: absolute;
+        top: 2px;
+        left: 140px;
+}
+.order-pagefield p{
+    margin-left: 210px;
+    margin-top: -100px;
+}
+.selects{
+    position: absolute;
+    left: 140px;
+    top: 60px;
+}
+
+.order-page2{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.order-page3{
+    position: absolute;
+    top: 410px;
+    left: 100px;
+}
+.order-page4{
+    position: absolute;
+    top: 560px;
+    left: 100px;
+}

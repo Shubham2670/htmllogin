@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 25px;
+}
+
+section .main h1 span{
+    color: #089da1;
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main_tag .main_btn{
+    background: #089da1;
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section .main .main_img img{
+    width: 780px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+.Interesting{
+    position: absolute;
+    top: 550px;
+
+}
+.books{
+    position:absolute;
+    top: 5px;
+    right: 280px;
+    font-size: 30px;
+}
+.books2{
+    position:absolute;
+    top: 5px;
+    right: -45px;
+    font-size: 30px;
+}
+.fa-solid{
+    margin-left: 620px;
+    color: rgb(128, 0, 119);
+}
+
+
+
+
+/*about*/
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about .about_image img{
+    width: 800px;
+}
+
+.about .about_tag h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .about_tag p{
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about_tag .about_btn{
+    padding: 10px 20px;
+    background: #089da1;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+
+.card {
+    width: 180px;
+    margin-left: 130px;
+    margin-top: -100px;
+
+}
+.card2{
+    width: 180px;
+    margin-left: 400px;
+    margin-top:-315px;
+}
+
+.card3{
+    width: 180px;
+    margin-left: 660px;
+    margin-top:-315px;
+}
+.card4{
+    width: 180px;
+    margin-left: 930px;
+    margin-top:-315px;
+}
+.card5{
+    width: 180px;
+    margin-left: 1200px;
+    margin-top:-315px;
+}
+.card6{
+    width: 180px;
+    margin-left: 1200px; 
+    margin-top:80px;
+}
+.card7{
+    width: 180px;
+    margin-left: 130px; 
+    margin-top:-315px;
+}
+.card8{
+    width: 180px;
+    margin-left: 400px; 
+    margin-top:-326px;
+}
+.card8 img{
+    height: 300px;
+}
+.card8 .container h4{
+    margin-left: 24px;
+    margin-top: -12px;
+}
+.card8 .container p{
+    margin-left: 24px;
+    margin-top: -1px;
+}
+.card9{
+    width: 180px;
+    margin-left: 665px; 
+    margin-top:-312px;
+}
+.card10{
+    width: 180px;
+    margin-left: 938px; 
+    margin-top:-315px;
+}
+.card11{
+    width: 180px;
+    margin-left: 938px; 
+    margin-top:65px;
+}
+.card12{
+    width: 180px;
+    margin-left: 665px; 
+    margin-top:-310px;
+}
+.card13{
+    width: 180px;
+    margin-left: 405px; 
+    margin-top:-314px;
+}
+.card14{
+    width: 180px;
+    margin-left: 135px; 
+    margin-top:-304px;
+}
+.card15{
+    width: 180px;
+    margin-left: 1205px; 
+    margin-top:-323px;
+}

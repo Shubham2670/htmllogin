@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+body img{
+    
+    height: 588px;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 650px;
+    box-shadow: inset  -1px 0px 0px rgb(229, 65, 65);
+    background-color: rgb(119, 81, 131);
+    
+}
+.addbooks{
+    border: solid 1px;
+    height: 630px;
+    width: 500px;
+    background-color:  rgb(212, 81, 33);
+    
+}
+
+.Container{
+    width: 50%;
+    max-width: 650px;
+    background-color: rgb(212, 81, 33);
+    padding: 28px;
+    box-shadow: inset -1px 0px 0px white;
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.main-user-info{
+    
+
+    justify-content: center;
+    padding: 20px 0;
+    margin-left: 150px;
+}
+.user-input:nth-child(2n){
+  justify-content: end;
+}
+
+.user-input{
+  
+    
+    width: 70%;
+    padding-bottom: 15px;
+
+}
+.user-input label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input input{
+    height: 35px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+.form-submit-btn {
+    margin-top: 35px;
+}
+.form-submit-btn input{
+    display: block;
+   cursor: pointer;
+   margin-top: 10px;
+   font-size: 20px;
+   padding: 10px;
+   border: none;
+   width: 68%;
+   border-radius: 3px;
+   color: rgb(209, 209, 209);
+   background-color: rgba(71, 114, 163, 0.7);
+}
+
+.form-submit-btn input:hover{
+    background-color: rgba(44, 207, 232, 0.7);
+    color: rgb(255,255,255);
+}
+.checkbox input{
+    border-radius: 5px;
+}
+.checkmark{
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight:lighter;
+}
+
+
+@media(max-width:600px){
+    .Container{
+        min-width: 280px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+        box-shadow:none;
+    }
+    .user-input{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .user-input:nth-child(2n){
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+    body{
+        display: flex;
+        flex-direction:column;
+        height: 1300px;
+        margin-right: 20px;
+        margin-left: 20px;
+        box-shadow: none;
+        margin-top: 20px;
+    }
+    checkmark{
+        color: rgb(255,255,255);
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight:lighter;
+    }
+
+}
